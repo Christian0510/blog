@@ -4,7 +4,7 @@
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             @foreach ($posts as $post)
-                <article class="w-full bg-center bg-cover h-80 @if($loop->first) md:col-span-2 @endif" style="background-image: url({{ Storage::url($post->image->url) }})">
+                <article class="w-full bg-center bg-cover h-80 @if($loop->first) md:col-span-2 @endif" style="background-image: url( @if($post->image) {{ Storage::url($post->image->url) }} @endif )">
                     <div class="w-full h-full px-8 flex flex-col justify-center">
 
                         <div>
