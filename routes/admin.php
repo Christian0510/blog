@@ -7,7 +7,7 @@ use App\Http\Controllers\Admin\CategoryController;
 use App\Http\Controllers\Admin\TagController;
 use App\Http\Controllers\Admin\PostController;
 use App\Http\Controllers\Admin\UserController;
-use App\Http\Controllers\RoleController;
+use App\Http\Controllers\Admin\RoleController;
 
 Route::get('', [HomeController::class, 'index'])->middleware('can:admin.home')->name('admin.home');
 
