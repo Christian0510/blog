@@ -15,11 +15,11 @@ class TagFactory extends Factory
     public function definition()
     {
 
-        $name = $this->faker->unique()->word(20);
+        // $name = $this->faker->unique()->word(20);
 
-        return [
-            'name' => $name,
-            'slug' => Str::slug($name),
-        ];
+        // return [
+        //     'name' => $name,
+        //     'slug' => Str::slug($name),
+        // ];
     }
 }
