@@ -18,7 +18,8 @@ class UserSeeder extends Seeder
             'name' => 'Christian Perez Chavez',
             'email' => 'christian.perez@prueba.com',
             'password' => bcrypt('password')
-        ]);
+        ])->assignRole('Admin');
+
         User::factory(3)->create();
     }
 }
