@@ -81,7 +81,7 @@
 
             @else
 
-                <img id="picture" src="https://www.xtrafondos.com/descargar.php?id=3284&resolucion=2560x1440" alt="">
+                <img id="picture" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.solofondos.com%2Fwp-content%2Fuploads%2F2016%2F02%2FFondos-wallpapers-4k.jpg&f=1&nofb=1" alt="">
 
             @endif
 
