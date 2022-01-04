@@ -5,7 +5,7 @@
     @if ($post->image)
         <img class="w-full h-72 object-cover object-center" src="{{ Storage::url($post->image->url) }}" alt="">
     @else
-    <img class="w-full h-72 object-cover object-center" src="" alt="">
+        <img class="w-full h-72 object-cover object-center" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.solofondos.com%2Fwp-content%2Fuploads%2F2016%2F02%2FFondos-wallpapers-4k.jpg&f=1&nofb=1" alt="">
     @endif
 
     <div class="px-6 py-4">
