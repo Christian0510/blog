@@ -46,7 +46,7 @@ class PostController extends Controller
         $post = Post::create($request->all());
 
         if ($request->file('file')){
-            $url = Storage::put('posts', $request->file('file'));
+            $url = Storage::put('storage/posts', $request->file('file'));
 
             $post->image()->create([
                 'url' => $url
@@ -58,7 +58,7 @@ class PostController extends Controller
             $post->tags()->attach($request->tags);
         }
 
-        return redirect()->route('admin.posts.edit', $post);
+        return redirect()->route('admin.posts.create', $post)->with('info', 'Post creado con exito.');
     }
 
     public function edit(Post $post)

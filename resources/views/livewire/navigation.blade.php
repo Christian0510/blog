@@ -26,8 +26,7 @@
 
                 {{-- Logotipo --}}
                 <a href="/" class="flex items-center flex-shrink-0">
-                    <img class="block w-auto h-8 lg:hidden" src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg" alt="Workflow">
-                    <img class="hidden w-auto h-8 lg:block" src="https://tailwindui.com/img/logos/workflow-logo-indigo-500-mark-white-text.svg" alt="Workflow">
+                    <img src="" alt="">
                 </a >
 
                 {{-- Menu lg --}}
